@@ -28,7 +28,7 @@
 
 </style> 
 
-<div class="wrap" on:click={console.log('не успел')} >
+<div class="wrap" on:click={event => event.target.style.visibility = 'hidden'}>
  <div class="red"></div>
  <div class="blue"></div>
  <div class="green"></div>
